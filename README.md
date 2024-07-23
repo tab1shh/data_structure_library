@@ -20,7 +20,11 @@ pip install -r requirements.txt
 Run the test suite using 'unittest' or 'pytest'.
 
 Using 'unittest'
+```bash
 python -m unittest discover tests
+```
 
 Using 'pytest'
+```bash
 pytest
+```
