@@ -21,32 +21,32 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-## Stack
-The 'Stack' class provides a stack data structure with 'push', 'pop', 'peek', and 'size' operations.
+    ## Stack
+    The 'Stack' class provides a stack data structure with 'push', 'pop', 'peek', and 'size' operations.
 
-Example:
-```bash
-from data_structures.stack import Stack
+    Example:
+    ```bash
+    from data_structures.stack import Stack
 
-# Create a new stack
-stack = Stack()
+    # Create a new stack
+    stack = Stack()
 
-# Push items onto the stack
-stack.push(1)
-stack.push(2)
+    # Push items onto the stack
+    stack.push(1)
+    stack.push(2)
 
-# Check the top item
-print(stack.peek())  # Output: 2
+    # Check the top item
+    print(stack.peek())  # Output: 2
 
-# Pop an item from the stack
-print(stack.pop())   # Output: 2
+    # Pop an item from the stack
+    print(stack.pop())   # Output: 2
 
-# Check if the stack is empty
-print(stack.is_empty())  # Output: False
+    # Check if the stack is empty
+    print(stack.is_empty())  # Output: False
 
-# Get the size of the stack
-print(stack.size())  # Output: 1
-```
+    # Get the size of the stack
+    print(stack.size())  # Output: 1
+    ```
 
 ## Running Tests
 Run the test suite using 'unittest' or 'pytest'.
