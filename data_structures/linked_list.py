@@ -10,6 +10,14 @@ class LinkedList:
     def is_empty(self):
         return self.head is None # returns true if 'head' is none, showing that the list is empty
     
+    def search(self, key):
+        current = self.head # 'current' is set to the first node in the linked list
+        while current is not None: # loops through linked list until it reach end 
+            if current.data == key: # checks if 'data' attribute of the current node is equal to the 'key', return true if found
+                return True
+            current = current.next # if 'data' attribute of the current does NOT equal to the 'key', move to the next node, this makes it so that we go through entire linked list
+        return False # if we go through entire linked list without finding 'key', then 'key' isnt present so return false
+
     def append(self, data):
         new_node = Node(data) # a new node is created with the provided data
         if self.is_empty(): # if the linked list is empty
