@@ -15,7 +15,7 @@ This projects aims to implement a custom data structure libaray in python to hel
 
 Clone the repository and install dependencies (if any).
 ```bash
-git clone https://github.com/yourusername/data_structure_library.git
+git clone https://github.com/tab1shh/data_structure_library
 cd data_structure_library
 pip install -r requirements.txt
 ```
